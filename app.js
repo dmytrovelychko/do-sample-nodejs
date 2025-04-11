@@ -7,6 +7,8 @@ var logger = require('morgan');
 var indexRouter = require('./routes/index');
 // var usersRouter = require('./routes/users');
 
+throw new Error('Poop is everywhere');
+
 var app = express();
 
 // view engine setup
@@ -39,3 +41,5 @@ app.use(function(err, req, res, next) {
 });
 
 module.exports = app;
+
+
